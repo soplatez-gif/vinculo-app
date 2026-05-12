@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python:*)",
       "Bash(curl -s http://localhost:8001/)",
-      "Bash(curl -s http://localhost:8001/health)"
+      "Bash(curl -s http://localhost:8001/health)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(curl -s \"https://octgveexdgojxojyrezu.supabase.co/rest/v1/\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\")",
+      "Bash(curl -s \"https://status.supabase.com/api/v2/status.json\")",
+      "Bash(curl:*)",
+      "Bash(git add:*)"
     ]
   }
 }
